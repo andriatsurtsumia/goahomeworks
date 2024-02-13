@@ -1,7 +1,7 @@
 print("გავიცანი და დავუმეგობრდი") 
 
 #nika keselava
-
+#vano motiashvili
 
 print("რას ვფიქრობ GOAზე")
 
