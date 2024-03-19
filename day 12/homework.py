@@ -6,7 +6,7 @@
 
 name1 = input("please enter your name: ")
 name2 = input("please enter your lastname: ")
-name3 = input("please eneter your age: ")
+name3 = int(input("please eneter your age: ")) 
 name4 = input("please enter your liveplace") 
 
 obj_list = []
@@ -41,7 +41,7 @@ print(obj_list)
 # მომხმარებელს შემოატანინეთ უარყოფითი რიცხვი. ამ რიცხვიდან 0-მდე არსებული ყველა უარყოფითი რიცხვი დაამატეთ სიაში და საბოლოოდ დაბეჭდეთ სია.
 
 
-input = ("please enter your number") 
+int(input("please enter negative number"))
 
 num_list = []
 
@@ -97,25 +97,22 @@ print(num_list)
 
 
 name = "andria tsurtsumia"
-sliced_name = name[0:3] 
-print(name)   
+print(name[:4]) 
+print(name[5:])   
 
 #სიაში შეინახეთ მინიმუმ 5 საყვარელი ფილმი. გამოიყენეთ Slicing და  დაბეჭდეთ რამდენიმე კომბინაციით. Bonus (არ არის აუცილებელი)
 
 
 movie_list = ["a bornx tale", "hachiko", "cars 3", "cars 1", "qerchi", "king lion"] 
 
-sliced_movie = movie_list[0:2]
-
-print(movie_list)  
-
+print(movie_list[0:3])  
+print(movie_list[2:4])
+print(movie_list[-1:-4])
+print(movie_list[-2:-5]) 
 #მომხმარებელს შემოატანინეთ აკადემიის სახელი. თუ ის "G"-თი იწყება, დაუპრინტეთ რომ გოა არის საუკეთესო არჩევანი.სხვა შემთხვევაში დაუპრინტეთ, რომ არასწორი გადაწყვეტილება მიიღო.
 
-name = input("please eneter you academy") 
-
-print(name) 
-
-if academy '=' G:
-    print("GREAT decision")
+academy = input("what academy is best: ") 
+if academy[0] == 'G' or academy[0] == 'g':
+    print("GREAT decision GOA is the best")
 else: 
     print("BAD decision") 
