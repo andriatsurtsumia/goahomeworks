@@ -1,8 +1,8 @@
 #Homework 
 
-input("please enter your name ")
-input("please enter your lastname ") 
-input("please enter your age ")
+name1 = input("please enter your name ")
+name2 = input("please enter your lastname ") 
+name3 = input("please enter your age ")
 
 
-print("name + lastname")
+print(name1 + name2 + name3) 

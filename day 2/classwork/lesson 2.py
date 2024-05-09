@@ -8,7 +8,7 @@ surname = "tsurtsumia"
 #print (name)
 #პრინტ ფუნქციის გადაცემა ეკრანზე გამოსატანი ობიექტი
 
-name = "andria" #ეს არის str (string) tipis cvladi
+name = "andria" #ეს არის str (string) ტიპის ცვლადი
 age = 15 #ეს არის int ( integer ) მთელი რიცხვი
 height = 180. #ეს არის float ტიპის ცვლადი (ათწილადი)
 #boolean (bool) ტიპის ცვლადი 

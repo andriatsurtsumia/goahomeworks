@@ -21,15 +21,15 @@ else:
 
 
 
-name1 = input("please enter your name: ")
-name2 = input("please enter your salary")
+# name1 = input("please enter your name: ")
+# name2 = input("please enter your salary")
 
-print(name1 + name2) 
+# print(name1 + name2) 
 
 
-repeat_salary = 15000
+# repeat_salary = 15000
 
-if repeat_salary >= 15000:
-    print("sworia")
-else:
-    print("arasworia")  
+# if repeat_salary >= 15000:
+#     print("sworia")
+# else:
+#     print("arasworia")  
